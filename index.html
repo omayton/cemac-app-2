@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CEMac Remoções | UTI Móvel e Ambulâncias</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Outfit', 'Inter', sans-serif;
+        background-color: #2A2836;
+        color: #f8fafc;
+        overflow-x: hidden;
+      }
+      .medical-grid {
+        background-image: radial-gradient(circle at 2px 2px, rgba(183, 143, 84, 0.05) 1px, transparent 0);
+        background-size: 40px 40px;
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0px); }
+      }
+      .animate-float {
+        animation: float 4s ease-in-out infinite;
+      }
+      .neon-border {
+        box-shadow: 0 0 15px rgba(34, 197, 94, 0.2);
+      }
+      .brand-glow {
+        box-shadow: 0 0 30px rgba(183, 143, 84, 0.1);
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      .faq-gradient {
+        background: linear-gradient(180deg, rgba(183, 143, 84, 0) 0%, rgba(183, 143, 84, 0.03) 100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
