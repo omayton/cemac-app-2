@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <Logo className="h-20" />
             <p className="text-slate-500 text-sm leading-relaxed">
-              Cemac Centro de Especialidades Médicas: Transporte médico especializado com 14 anos de compromisso com a vida e excelência técnica no Centro-Oeste Mineiro.
+              CEMAC Centro de Especialidades Médicas: Transporte médico especializado com 14 anos de compromisso com a vida e excelência técnica no Centro-Oeste Mineiro.
             </p>
             <div className="flex gap-4">
               {[Instagram, Linkedin, Facebook].map((Icon, i) => (
@@ -60,7 +60,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-slate-600">
-          <p>© 2026 Cemac Remoções. Todos os direitos reservados.</p>
+          <p>© 2026 CEMAC Remoções. Todos os direitos reservados.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-[#B78F54]">Privacidade</a>
             <a href="#" className="hover:text-[#B78F54]">Termos de Uso</a>

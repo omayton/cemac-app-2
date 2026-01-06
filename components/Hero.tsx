@@ -29,7 +29,7 @@ export const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="group relative flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-105 active:scale-95 neon-border overflow-hidden">
+              <button className="group relative flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-110 active:scale-95 neon-border overflow-hidden shadow-[0_10px_30px_rgba(34,197,94,0.3)]">
                 <div className="absolute inset-0 w-full h-full bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500"></div>
                 <span className="text-xl">🚑</span>
                 SOLICITAR ORÇAMENTO AGORA
@@ -72,7 +72,7 @@ export const Hero: React.FC = () => {
               <div className="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-slate-950/60 backdrop-blur-md border border-white/5">
                 <p className="text-white text-sm font-medium flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
-                  Operação CEMac: Excelência e Segurança em MG
+                  Operação CEMAC: Excelência e Segurança em MG
                 </p>
               </div>
             </div>
