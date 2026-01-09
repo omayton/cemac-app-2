@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <Logo className="h-20" />
             <p className="text-slate-500 text-sm leading-relaxed">
-              CEMAC Centro de Especialidades Médicas: Transporte médico especializado com 14 anos de compromisso com a vida e excelência técnica no Centro-Oeste Mineiro.
+              CEMAC Remoções: Transporte médico especializado com 14 anos de compromisso com a vida e excelência técnica no Centro-Oeste Mineiro.
             </p>
             <div className="flex gap-4">
               {[Instagram, Linkedin, Facebook].map((Icon, i) => (
@@ -43,17 +43,29 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Contato</h4>
             <ul className="space-y-4">
-              <li className="flex items-center gap-3 text-slate-500 text-sm">
-                <Phone size={16} className="text-[#B78F54]" />
-                (37) 00000-0000
+              <li className="flex flex-col gap-3">
+                <a href="tel:31999693446" className="flex items-center gap-3 text-slate-500 text-sm hover:text-white transition-colors">
+                  <Phone size={16} className="text-[#B78F54]" />
+                  (031) 99969-3446 - Alberto
+                </a>
+                <a href="tel:31971167260" className="flex items-center gap-3 text-slate-500 text-sm hover:text-white transition-colors">
+                  <Phone size={16} className="text-[#B78F54]" />
+                  (031) 97116-7260 - Alonso
+                </a>
+                <a href="tel:37999142924" className="flex items-center gap-3 text-slate-500 text-sm hover:text-white transition-colors">
+                  <Phone size={16} className="text-[#B78F54]" />
+                  (037) 99914-2924 - Michely
+                </a>
               </li>
               <li className="flex items-center gap-3 text-slate-500 text-sm">
                 <Mail size={16} className="text-[#B78F54]" />
-                contato@cemacremocoes.com.br
+                <a href="mailto:cemacremocao@gmail.com" className="hover:text-white transition-colors text-xs md:text-sm">
+                  cemacremocao@gmail.com
+                </a>
               </li>
               <li className="mt-6 p-4 rounded-xl bg-[#B78F54]/10 border border-[#B78F54]/20">
                 <p className="text-[#B78F54] font-bold text-[10px] uppercase tracking-widest mb-1">Prontidão 24h</p>
-                <p className="text-white text-xs font-medium">Equipe Técnica escalada para suporte emergencial.</p>
+                <p className="text-white text-xs font-medium">Aluguel de ambulâncias e cobertura em eventos.</p>
               </li>
             </ul>
           </div>

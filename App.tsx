@@ -9,34 +9,42 @@ import { FinalOffer } from './components/FinalOffer';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 
+const SectionSeparator = () => (
+  <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#B78F54]/40 to-transparent"></div>
+);
+
 function App() {
+  const whatsappUrl = "https://wa.me/5531999693446";
+
   return (
     <div className="min-h-screen bg-[#2A2836] selection:bg-[#B78F54] selection:text-white">
       <Navbar />
       
       <main>
         <Hero />
+        <SectionSeparator />
         
-        <div className="relative">
-          {/* Subtle neon separator line updated to brand gold */}
-          <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#B78F54]/30 to-transparent"></div>
-          <ProblemSection />
-        </div>
+        <ProblemSection />
+        <SectionSeparator />
         
         <Benefits />
+        <SectionSeparator />
         
         <Credibility />
+        <SectionSeparator />
         
         <FinalOffer />
+        <SectionSeparator />
         
         <FAQ />
+        <SectionSeparator />
       </main>
 
       <Footer />
 
       {/* WhatsApp Sticky Mobile Toggle (Enhanced) */}
       <a 
-        href="https://wa.me/5500000000000" 
+        href={whatsappUrl} 
         target="_blank"
         className="fixed bottom-6 right-6 z-40 bg-green-500 text-white p-4 rounded-2xl shadow-[0_10px_30px_rgba(34,197,94,0.4)] hover:scale-110 active:scale-95 transition-all duration-300 md:hidden"
       >

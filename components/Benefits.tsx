@@ -11,12 +11,12 @@ export const Benefits: React.FC = () => {
     },
     {
       title: "UTI Móvel Adulto",
-      desc: "Equipamentos de ponta e equipe médica e de enfermagem preparada.",
+      desc: "Equipamentos de ponta e equipe médica e de enfermagem preparada para assistência ao paciente em todas as condições clínicas, incluindo gestantes e transporte de pacientes psiquiátricos.",
       icon: <MonitorSmartphone className="text-[#B78F54]" />
     },
     {
-      title: "UTI Móvel Neonatal",
-      desc: "Transporte especializado para os recém-nascidos que exigem cuidado máximo.",
+      title: "UTI Móvel Neonatal e Infantil",
+      desc: "Remoção segura de recém-nascidos e crianças que exigem cuidado máximo, com equipe especializada e equipamentos de alta tecnologia.",
       icon: <Baby className="text-[#B78F54]" />
     },
     {
@@ -68,7 +68,7 @@ export const Benefits: React.FC = () => {
               <Activity className="text-white" size={32} />
             </div>
             <h4 className="text-xl font-bold text-slate-900 uppercase tracking-tighter">Prontidão Imediata</h4>
-            <p className="text-slate-900/80 text-xs font-semibold">Suporte logístico especializado 24h</p>
+            <p className="text-slate-900/80 text-xs font-semibold leading-tight">Aluguel de ambulâncias<br/>Cobertura em eventos</p>
           </div>
         </div>
       </div>

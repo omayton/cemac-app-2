@@ -22,6 +22,8 @@ export const Navbar: React.FC = () => {
     { label: 'FAQ', href: '#faq' },
   ];
 
+  const whatsappUrl = "https://wa.me/5531999693446";
+
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -30,7 +32,6 @@ export const Navbar: React.FC = () => {
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <a href="#hero" className="hover:opacity-80 transition-opacity">
-          {/* Logo increased by ~20%: h-12 -> h-[58px], h-14 -> h-[68px] */}
           <Logo className="h-[58px] md:h-[68px]" />
         </a>
 
@@ -46,7 +47,7 @@ export const Navbar: React.FC = () => {
             </a>
           ))}
           <a 
-            href="https://wa.me/5500000000000" 
+            href={whatsappUrl} 
             target="_blank"
             className="flex items-center gap-2 bg-green-500 hover:bg-green-600 text-slate-900 px-7 py-3 rounded-full text-base font-bold transition-all hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(34,197,94,0.3)]"
           >
@@ -79,7 +80,7 @@ export const Navbar: React.FC = () => {
               </a>
             ))}
             <a 
-              href="https://wa.me/5500000000000" 
+              href={whatsappUrl} 
               className="flex items-center justify-center gap-3 bg-green-500 text-slate-900 py-5 rounded-2xl font-black text-lg mt-2 shadow-lg"
               onClick={() => setIsMobileMenuOpen(false)}
             >

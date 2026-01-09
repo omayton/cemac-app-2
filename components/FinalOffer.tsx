@@ -12,7 +12,7 @@ export const FinalOffer: React.FC = () => {
   ];
 
   const categories = [
-    "Prefeituras", "Consórcios (CIS Minas)", "Planos de Saúde", "Eventos", "Particular"
+    "Prefeituras", "Consórcios", "Planos de Saúde", "Eventos", "Particular"
   ];
 
   return (

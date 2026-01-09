@@ -42,8 +42,8 @@ export const ProblemSection: React.FC = () => {
           <div className="flex-1 w-full space-y-8">
             <div className="relative rounded-[2.5rem] overflow-hidden border border-white/10 aspect-[4/3] group shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800" 
-                alt="Equipe Médica Profissional" 
+                src="https://cemacremocoes.com.br/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-06-at-15.41.26.jpeg" 
+                alt="Equipe e Equipamentos CEMAC" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#2A2836] via-transparent to-transparent opacity-80"></div>
@@ -57,8 +57,8 @@ export const ProblemSection: React.FC = () => {
                     Suporte Avançado
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold text-white">Equipamentos de última geração em todas as unidades</h3>
-                <p className="text-slate-400 text-sm">Monitores multiparamétricos, ventiladores mecânicos e suporte vital avançado completo.</p>
+                <h3 className="text-2xl font-bold text-white drop-shadow-md">Equipamentos de última geração em todas as unidades</h3>
+                <p className="text-slate-200 text-sm drop-shadow-sm">Monitores multiparamétricos, ventiladores mecânicos e suporte vital avançado completo.</p>
               </div>
             </div>
 

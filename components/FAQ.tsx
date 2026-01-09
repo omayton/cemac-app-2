@@ -47,7 +47,7 @@ export const FAQ: React.FC = () => {
     },
     {
       q: "Quais regiões vocês atendem?",
-      a: "Nossa base operacional é estratégica para Bambuí, Piumhi e Divinópolis, atendendo todo o Centro-Oeste de Minas Gerais. Também realizamos transferências intermunicipais e interestaduais sob agendamento."
+      a: "Contamos com bases operacionais localizadas em Bambuí, Piumhi e Divinópolis, posicionadas estrategicamente para garantir atendimento ágil e eficiente em todo o Centro-Oeste de Minas Gerais. Além disso, realizamos remoções intermunicipais e interestaduais, mediante agendamento prévio."
     },
     {
       q: "Vocês atendem eventos e empresas?",
@@ -88,7 +88,7 @@ export const FAQ: React.FC = () => {
             
             <div className="pt-6">
               <a 
-                href="https://wa.me/5500000000000"
+                href="https://wa.me/5531999693446"
                 className="inline-flex items-center gap-4 px-8 py-5 rounded-2xl bg-[#B78F54] hover:bg-[#8A7655] text-slate-900 font-black transition-all group shadow-lg shadow-[#B78F54]/20"
               >
                 FALAR COM ESPECIALISTA

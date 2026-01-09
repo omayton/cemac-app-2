@@ -27,9 +27,6 @@ export const Credibility: React.FC = () => {
 
   return (
     <section id="credibility" className="py-24 bg-[#2A2836] overflow-hidden relative">
-      {/* Background Neon Line - Moved to top to act as a separator instead of cutting the text */}
-      <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-[#B78F54]/30 to-transparent"></div>
-
       <div className="container mx-auto px-4 md:px-6 relative">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="space-y-10">
