@@ -42,8 +42,8 @@ export const ProblemSection: React.FC = () => {
           <div className="flex-1 w-full space-y-8">
             <div className="relative rounded-[2.5rem] overflow-hidden border border-white/10 aspect-[4/3] group shadow-2xl">
               <img 
-                src="https://cemacremocoes.com.br/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-06-at-15.41.26.jpeg" 
-                alt="Equipe e Equipamentos CEMAC" 
+                src="https://www.rkdigital.co/wp-content/uploads/2026/01/WhatsApp-Image-2025-12-16-at-09.58.33-2.jpeg" 
+                alt="Equipamentos de Última Geração CEMAC" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#2A2836] via-transparent to-transparent opacity-80"></div>

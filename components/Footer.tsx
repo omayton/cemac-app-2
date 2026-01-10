@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Logo } from './Logo';
-import { Instagram, Linkedin, Facebook, Mail, Phone } from 'lucide-react';
+import { Instagram, Linkedin, Facebook, Mail, Phone, MessageSquareText } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -43,28 +43,42 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Contato</h4>
             <ul className="space-y-4">
-              <li className="flex flex-col gap-3">
-                <a href="tel:31999693446" className="flex items-center gap-3 text-slate-500 text-sm hover:text-white transition-colors">
-                  <Phone size={16} className="text-[#B78F54]" />
-                  (031) 99969-3446 - Alberto
-                </a>
-                <a href="tel:31971167260" className="flex items-center gap-3 text-slate-500 text-sm hover:text-white transition-colors">
-                  <Phone size={16} className="text-[#B78F54]" />
-                  (031) 97116-7260 - Alonso
-                </a>
-                <a href="tel:37999142924" className="flex items-center gap-3 text-slate-500 text-sm hover:text-white transition-colors">
-                  <Phone size={16} className="text-[#B78F54]" />
-                  (037) 99914-2924 - Michely
-                </a>
+              <li className="space-y-3">
+                <div className="flex flex-col gap-1">
+                  <span className="text-[10px] text-[#B78F54] font-bold uppercase tracking-widest">Plantão 24h</span>
+                  <a href="https://wa.me/5531999693446" className="flex items-center gap-3 text-slate-300 text-sm hover:text-[#B78F54] transition-colors font-medium">
+                    <Phone size={14} className="text-[#B78F54]" />
+                    (31) 99969-3446 - Alberto
+                  </a>
+                  <a href="https://wa.me/5531971167260" className="flex items-center gap-3 text-slate-300 text-sm hover:text-[#B78F54] transition-colors font-medium">
+                    <Phone size={14} className="text-[#B78F54]" />
+                    (31) 97116-7260 - Alonso
+                  </a>
+                </div>
+
+                <div className="flex flex-col gap-1 pt-2">
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-widest">Adm (07:00 as 17:00h)</span>
+                  <a href="https://wa.me/5537998081203" className="flex items-center gap-3 text-slate-300 text-sm hover:text-[#B78F54] transition-colors font-medium">
+                    <Phone size={14} className="text-[#B78F54]" />
+                    (37) 99808-1203 - CEMAC
+                  </a>
+                </div>
+                
+                <div className="flex items-center gap-2 pt-1">
+                  <MessageSquareText size={12} className="text-green-500" />
+                  <span className="text-[10px] text-slate-400 font-bold italic">Todos possuem WhatsApp</span>
+                </div>
               </li>
-              <li className="flex items-center gap-3 text-slate-500 text-sm">
+              
+              <li className="flex items-center gap-3 text-slate-500 text-sm pt-4">
                 <Mail size={16} className="text-[#B78F54]" />
-                <a href="mailto:cemacremocao@gmail.com" className="hover:text-white transition-colors text-xs md:text-sm">
+                <a href="mailto:cemacremocao@gmail.com" className="hover:text-white transition-colors text-xs">
                   cemacremocao@gmail.com
                 </a>
               </li>
-              <li className="mt-6 p-4 rounded-xl bg-[#B78F54]/10 border border-[#B78F54]/20">
-                <p className="text-[#B78F54] font-bold text-[10px] uppercase tracking-widest mb-1">Prontidão 24h</p>
+              
+              <li className="mt-4 p-4 rounded-xl bg-[#B78F54]/10 border border-[#B78F54]/20">
+                <p className="text-[#B78F54] font-bold text-[10px] uppercase tracking-widest mb-1">Prontidão Imediata</p>
                 <p className="text-white text-xs font-medium">Aluguel de ambulâncias e cobertura em eventos.</p>
               </li>
             </ul>

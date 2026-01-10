@@ -3,6 +3,8 @@ import React from 'react';
 import { ShieldCheck, Clock, Users, Activity, MessageCircle } from 'lucide-react';
 
 export const Hero: React.FC = () => {
+  const whatsappUrl = "https://wa.me/5531999693446";
+
   return (
     <section id="hero" className="relative pt-40 pb-20 md:pt-56 md:pb-32 overflow-hidden">
       {/* Background Decor */}
@@ -38,16 +40,26 @@ export const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
-              <button className="group relative flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-black px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-110 active:scale-95 neon-border overflow-hidden shadow-[0_10px_30px_rgba(34,197,94,0.3)]">
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-black px-8 py-4 rounded-2xl transition-all duration-300 hover:scale-110 active:scale-95 neon-border overflow-hidden shadow-[0_10px_30px_rgba(34,197,94,0.3)]"
+              >
                 <div className="absolute inset-0 w-full h-full bg-white/20 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-500"></div>
                 <span className="text-xl">🚑</span>
                 SOLICITAR ORÇAMENTO
-              </button>
+              </a>
               
-              <button className="flex items-center justify-center gap-3 bg-transparent border-2 border-white/10 hover:border-[#B78F54] text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:bg-[#B78F54]/10 active:scale-95">
+              <a 
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-3 bg-transparent border-2 border-white/10 hover:border-[#B78F54] text-white font-bold px-8 py-4 rounded-2xl transition-all duration-300 hover:bg-[#B78F54]/10 active:scale-95"
+              >
                 <MessageCircle className="text-[#B78F54]" />
                 FALAR NO WHATSAPP
-              </button>
+              </a>
             </div>
 
             <div className="flex flex-wrap justify-center lg:justify-start gap-3 mt-4">
@@ -70,7 +82,7 @@ export const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-[#B78F54]/20 rounded-[2.5rem] blur-2xl group-hover:bg-[#B78F54]/30 transition-all duration-500"></div>
             <div className="relative aspect-video rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl bg-slate-900 group-hover:scale-[1.01] transition-transform duration-500">
               <video 
-                src="https://cemacremocoes.com.br/wp-content/uploads/2026/01/WhatsApp-Video-2025-12-16-at-10.03.23.mp4"
+                src="https://www.rkdigital.co/wp-content/uploads/2026/01/WhatsApp-Video-2025-12-16-at-10.03.23.mp4"
                 autoPlay
                 muted
                 loop
