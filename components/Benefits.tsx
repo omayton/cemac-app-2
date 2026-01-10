@@ -7,68 +7,71 @@ export const Benefits: React.FC = () => {
     {
       title: "Básico ao Avançado",
       desc: "Suporte completo conforme a necessidade clínica do paciente.",
-      icon: <Activity className="text-[#B78F54]" />
+      icon: <Activity size={24} className="text-[#B78F54]" />
     },
     {
       title: "UTI Móvel Adulto",
-      desc: "Equipamentos de ponta e equipe médica e de enfermagem preparada para assistência ao paciente em todas as condições clínicas, incluindo gestantes e transporte de pacientes psiquiátricos.",
-      icon: <MonitorSmartphone className="text-[#B78F54]" />
+      desc: "Assistência completa para pacientes críticos, gestantes e casos psiquiátricos.",
+      icon: <MonitorSmartphone size={24} className="text-[#B78F54]" />
     },
     {
-      title: "UTI Móvel Neonatal e Infantil",
-      desc: "Remoção segura de recém-nascidos e crianças que exigem cuidado máximo, com equipe especializada e equipamentos de alta tecnologia.",
-      icon: <Baby className="text-[#B78F54]" />
+      title: "Neonatal e Infantil",
+      desc: "Remoção segura com incubadoras e equipe especializada em pediatria.",
+      icon: <Baby size={24} className="text-[#B78F54]" />
     },
     {
       title: "Ambulância Simples",
-      desc: "Para demandas operacionais, remoções e transportes de baixa complexidade.",
-      icon: <Truck className="text-[#B78F54]" />
+      desc: "Transportes de baixa complexidade com agilidade e conforto.",
+      icon: <Truck size={24} className="text-[#B78F54]" />
     },
     {
-      title: "Atendimento Humanizado",
-      desc: "Foco total no acolhimento, respeito e dignidade do paciente e família.",
-      icon: <HeartHandshake className="text-[#B78F54]" />
+      title: "Acolhimento Humano",
+      desc: "Respeito e dignidade total ao paciente e seus familiares.",
+      icon: <HeartHandshake size={24} className="text-[#B78F54]" />
     },
     {
-      title: "Cobertura Regional",
-      desc: "Estratégica em Bambuí, Piumhi, Divinópolis e entorno de MG.",
-      icon: <MapPin className="text-[#B78F54]" />
+      title: "Cobertura MG",
+      desc: "Bases em Bambuí, Piumhi e Divinópolis para resposta rápida.",
+      icon: <MapPin size={24} className="text-[#B78F54]" />
     },
     {
-      title: "Agilidade & Segurança",
-      desc: "Processos e logística otimizada por 14 anos de experiência real.",
-      icon: <Zap className="text-[#B78F54]" />
+      title: "Agilidade Real",
+      desc: "Logística otimizada por mais de uma década de experiência.",
+      icon: <Zap size={24} className="text-[#B78F54]" />
     }
   ];
 
   return (
     <section id="benefits" className="py-24 medical-grid">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <h2 className="text-sm font-bold text-[#B78F54] uppercase tracking-[0.3em]">Nossa Estrutura</h2>
-          <h3 className="text-4xl md:text-5xl font-black text-white">Equipada para todas as necessidades:</h3>
+        <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
+          <p className="text-xs font-bold text-[#B78F54] uppercase tracking-[0.4em]">Nossa Estrutura</p>
+          <h3 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight uppercase">Equipada para a vida</h3>
+          <div className="w-20 h-1.5 bg-[#B78F54] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {benefits.map((b, i) => (
             <div 
               key={i}
-              className="group p-8 rounded-[2rem] bg-[#1E1C27] border border-white/5 hover:border-[#B78F54]/50 hover:bg-[#23212D] transition-all duration-500 brand-glow"
+              className="group p-10 rounded-2xl bg-[#1E1C27] border border-white/5 hover:border-[#B78F54]/30 transition-all duration-500 shadow-xl"
             >
-              <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-white/10 transition-all duration-500">
+              <div className="w-14 h-14 rounded-xl bg-white/[0.03] flex items-center justify-center mb-8 transition-all duration-500 group-hover:bg-[#B78F54]/10">
                 {b.icon}
               </div>
-              <h4 className="text-xl font-bold text-white mb-3">{b.title}</h4>
-              <p className="text-slate-400 text-sm leading-relaxed">{b.desc}</p>
+              <h4 className="text-xl md:text-2xl font-bold text-white mb-4 tracking-tight">{b.title}</h4>
+              <p className="text-slate-400 text-base leading-relaxed">{b.desc}</p>
             </div>
           ))}
           
-          <div className="hidden xl:flex p-8 rounded-[2rem] bg-gradient-to-br from-[#B78F54] to-[#8A7655] flex-col justify-center items-center text-center gap-4">
+          <div className="hidden xl:flex p-10 rounded-2xl bg-gradient-to-br from-[#B78F54] to-[#8A7655] flex-col justify-center items-center text-center gap-6 shadow-2xl">
             <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center animate-pulse">
               <Activity className="text-white" size={32} />
             </div>
-            <h4 className="text-xl font-bold text-slate-900 uppercase tracking-tighter">Prontidão Imediata</h4>
-            <p className="text-slate-900/80 text-xs font-semibold leading-tight">Aluguel de ambulâncias<br/>Cobertura em eventos</p>
+            <div className="space-y-2">
+              <h4 className="text-xl font-black text-slate-900 uppercase tracking-tighter">PRONTIDÃO TOTAL</h4>
+              <p className="text-slate-900/80 text-xs font-bold leading-tight uppercase tracking-widest">Eventos & Empresas 24h</p>
+            </div>
           </div>
         </div>
       </div>
