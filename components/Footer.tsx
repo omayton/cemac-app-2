@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase text-sm tracking-widest">Região</h4>
             <ul className="space-y-4">
-              {["Divinópolis", "Bambuí", "Piumhi", "Iguatama", "Centro-Oeste MG"].map(item => (
+              {["Divinópolis", "Bambuí", "Piumhi", "Iguatama", "Centro-Oeste MG", "Todo Território Nacional"].map(item => (
                 <li key={item} className="text-slate-500 text-sm">{item}</li>
               ))}
             </ul>

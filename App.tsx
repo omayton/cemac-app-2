@@ -46,6 +46,7 @@ function App() {
       <a 
         href={whatsappUrl} 
         target="_blank"
+        rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-green-500 text-white p-4 rounded-2xl shadow-[0_10px_30px_rgba(34,197,94,0.4)] hover:scale-110 active:scale-95 transition-all duration-300 md:hidden"
       >
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

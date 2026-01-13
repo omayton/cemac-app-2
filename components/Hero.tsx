@@ -4,6 +4,7 @@ import { ShieldCheck, Clock, Users, Activity, MessageCircle } from 'lucide-react
 
 export const Hero: React.FC = () => {
   const whatsappUrl = "https://wa.me/5531999693446";
+  const emailUrl = "mailto:financeiroclinicacemac@gmail.com";
 
   return (
     <section id="hero" className="relative pt-32 pb-16 md:pt-48 md:pb-24 overflow-hidden">
@@ -40,12 +41,10 @@ export const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start pt-4">
               <a 
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold px-10 py-5 rounded-xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_30px_rgba(34,197,94,0.2)]"
+                href={emailUrl}
+                className="group relative flex items-center justify-center gap-3 bg-white hover:bg-[#B78F54] text-slate-900 font-bold px-10 py-5 rounded-xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_30px_rgba(255,255,255,0.1)] hover:text-white"
               >
-                <span className="text-xl">🚑</span>
+                <span className="text-xl">📩</span>
                 SOLICITAR ORÇAMENTO
               </a>
               
@@ -53,9 +52,9 @@ export const Hero: React.FC = () => {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center gap-3 bg-transparent border border-white/10 hover:border-[#B78F54] text-white font-semibold px-10 py-5 rounded-xl transition-all duration-300 hover:bg-[#B78F54]/5 active:scale-95"
+                className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-slate-900 font-bold px-10 py-5 rounded-xl transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_30px_rgba(34,197,94,0.2)]"
               >
-                <MessageCircle size={20} className="text-[#B78F54]" />
+                <MessageCircle size={20} />
                 WHATSAPP
               </a>
             </div>

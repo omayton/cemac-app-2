@@ -67,6 +67,8 @@ export const FAQ: React.FC = () => {
     }
   ];
 
+  const whatsappUrl = "https://wa.me/5531999693446";
+
   return (
     <section id="faq" className="py-24 bg-[#2A2836] relative overflow-hidden">
       {/* Decorative Gold Elements */}
@@ -88,7 +90,9 @@ export const FAQ: React.FC = () => {
             
             <div className="pt-6">
               <a 
-                href="https://wa.me/5531999693446"
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-4 px-8 py-5 rounded-2xl bg-[#B78F54] hover:bg-[#8A7655] text-slate-900 font-black transition-all group shadow-lg shadow-[#B78F54]/20"
               >
                 FALAR COM ESPECIALISTA
