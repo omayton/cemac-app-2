@@ -25,8 +25,8 @@ export const Hero: React.FC = () => {
             
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-extrabold leading-[1.05] text-white uppercase tracking-tight">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B78F54] to-[#E5C185]">CEMAC Remoções</span>, <br />
-                UTI MÓVEL, Neonatal e 
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#B78F54] to-[#E5C185]">CEMAC Remoções</span>, <br className="hidden md:block" />
+                UTI MÓVEL, Neonatal e
                 ambulância simples.
               </h1>
               

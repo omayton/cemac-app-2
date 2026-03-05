@@ -33,7 +33,7 @@ export const Credibility: React.FC = () => {
             <div className="space-y-5">
               <p className="text-[#B78F54] font-bold text-xs uppercase tracking-[0.4em]">Experiência de Mercado</p>
               <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight uppercase tracking-tight">
-                14 anos de excelência <br />
+                14 anos de excelência <br className="hidden md:block" />
                 <span className="text-[#B78F54]">em serviços críticos.</span>
               </h2>
               <div className="w-20 h-1.5 bg-[#B78F54] rounded-full"></div>

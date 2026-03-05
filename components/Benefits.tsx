@@ -52,9 +52,9 @@ export const Benefits: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {benefits.map((b, i) => (
-            <div 
+            <div
               key={i}
-              className="group p-10 rounded-2xl bg-[#1E1C27] border border-white/5 hover:border-[#B78F54]/30 transition-all duration-500 shadow-xl"
+              className="group p-6 md:p-10 rounded-2xl bg-[#1E1C27] border border-white/5 hover:border-[#B78F54]/30 transition-all duration-500 shadow-xl"
             >
               <div className="w-14 h-14 rounded-xl bg-white/[0.03] flex items-center justify-center mb-8 transition-all duration-500 group-hover:bg-[#B78F54]/10">
                 {b.icon}
@@ -64,7 +64,7 @@ export const Benefits: React.FC = () => {
             </div>
           ))}
           
-          <div className="hidden xl:flex p-10 rounded-2xl bg-gradient-to-br from-[#B78F54] to-[#8A7655] flex-col justify-center items-center text-center gap-6 shadow-2xl">
+          <div className="hidden xl:flex p-6 md:p-10 rounded-2xl bg-gradient-to-br from-[#B78F54] to-[#8A7655] flex-col justify-center items-center text-center gap-6 shadow-2xl">
             <div className="w-16 h-16 rounded-full bg-white/20 flex items-center justify-center animate-pulse">
               <Activity className="text-white" size={32} />
             </div>

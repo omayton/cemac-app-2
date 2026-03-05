@@ -30,8 +30,8 @@ export const FinalOffer: React.FC = () => {
               <div className="space-y-4">
                 <p className="text-[#B78F54] font-bold text-xs uppercase tracking-[0.4em]">Prontidão 24 Horas</p>
                 <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-[1.05] uppercase tracking-tight">
-                  QUERO CONTRATAR A <br />
-                  <span className="text-[#B78F54]">SEMAC REMOÇÕES</span>
+                  QUERO CONTRATAR A <br className="hidden md:block" />
+                  <span className="text-[#B78F54]">CEMAC REMOÇÕES</span>
                 </h2>
               </div>
               <p className="text-xl md:text-2xl text-slate-400 font-medium leading-relaxed">
