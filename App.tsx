@@ -7,6 +7,7 @@ import { Benefits } from './components/Benefits';
 import { Credibility } from './components/Credibility';
 import { FinalOffer } from './components/FinalOffer';
 import { FAQ } from './components/FAQ';
+import { FeedbackSection } from './components/FeedbackSection';
 import { Footer } from './components/Footer';
 
 const SectionSeparator = () => (
@@ -37,6 +38,9 @@ function App() {
         <SectionSeparator />
         
         <FAQ />
+        <SectionSeparator />
+        
+        <FeedbackSection />
         <SectionSeparator />
       </main>
 

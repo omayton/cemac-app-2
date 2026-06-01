@@ -20,6 +20,7 @@ export const Navbar: React.FC = () => {
     { label: 'Serviços', href: '#benefits' },
     { label: 'Experiência', href: '#credibility' },
     { label: 'FAQ', href: '#faq' },
+    { label: 'Ouvidoria', href: '#ouvidoria' },
   ];
 
   const whatsappUrl = "https://wa.me/5531999693446";
